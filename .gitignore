@@ -1,0 +1,22 @@
+# === InstaLive-Pro: Build & Config Exclusions ===
+
+# Binaries & Virtual Env
+venv/
+bin/
+*.exe
+*.dll
+
+# Session Data (PRIVATE)
+config.json
+sessions/
+.ig_auth
+cookies.txt
+
+# Media Cache
+/temp_segments/
+*.mp4
+*.ts
+
+# Logs
+*.log
+ffmpeg_error.log
